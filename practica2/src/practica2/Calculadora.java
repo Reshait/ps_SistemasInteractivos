@@ -12,6 +12,8 @@ import javax.swing.*;
  *
  * @author teo
  */
+//No se pq si hago RUN no se me ven los botones, si hago Debug Sí se me ven.
+//Pasa lo mismo si añado cp.add(texto), deja de vérseme todo. :S
 public class Calculadora extends VentanaTipica{
     
     public Calculadora(int alto, int ancho, String titulo) {
@@ -21,7 +23,7 @@ public class Calculadora extends VentanaTipica{
         gl.setHgap(5);
         gl.setVgap(5);
         cp.setLayout(gl);
-        JTextField texto = new JTextField(50);
+        //JTextField texto = new JTextField(50);
         //cp.add(texto);
         for(int i = 1; i <= 9; i++){
             cp.add(new JButton(String.valueOf(i)));
