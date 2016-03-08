@@ -50,13 +50,25 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton20 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 51, 51));
 
-        txtPanel.setText("Calculadora de Teo, aquí sus cuentas.");
+        txtPanel.setBackground(new java.awt.Color(102, 102, 102));
+        txtPanel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        txtPanel.setForeground(new java.awt.Color(0, 204, 51));
+        txtPanel.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txtPanel.setText("Teo's calc");
+        txtPanel.setBorder(null);
+        txtPanel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPanelActionPerformed(evt);
+            }
+        });
 
         jButton1.setBackground(new java.awt.Color(26, 52, 76));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("1");
         jButton1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton1.setBorderPainted(false);
         jButton1.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton1.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton1.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -70,6 +82,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("4");
         jButton2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton2.setBorderPainted(false);
         jButton2.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton2.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton2.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -83,6 +96,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("7");
         jButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton4.setBorderPainted(false);
         jButton4.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton4.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton4.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -96,6 +110,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("+/-");
         jButton5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton5.setBorderPainted(false);
         jButton5.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton5.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton5.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -109,6 +124,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("0");
         jButton6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton6.setBorderPainted(false);
         jButton6.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton6.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton6.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -122,6 +138,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("8");
         jButton7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton7.setBorderPainted(false);
         jButton7.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton7.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton7.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -135,6 +152,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("5");
         jButton3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton3.setBorderPainted(false);
         jButton3.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton3.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton3.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -148,6 +166,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("2");
         jButton8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton8.setBorderPainted(false);
         jButton8.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton8.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton8.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -161,6 +180,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText(".");
         jButton9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton9.setBorderPainted(false);
         jButton9.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton9.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton9.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -174,6 +194,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setText("9");
         jButton10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton10.setBorderPainted(false);
         jButton10.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton10.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton10.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -187,6 +208,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
         jButton11.setText("6");
         jButton11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton11.setBorderPainted(false);
         jButton11.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton11.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton11.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -200,6 +222,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton12.setForeground(new java.awt.Color(255, 255, 255));
         jButton12.setText("3");
         jButton12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton12.setBorderPainted(false);
         jButton12.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton12.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton12.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -213,6 +236,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton13.setForeground(new java.awt.Color(255, 255, 255));
         jButton13.setText("/");
         jButton13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton13.setBorderPainted(false);
         jButton13.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton13.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton13.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -226,6 +250,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
         jButton14.setText("*");
         jButton14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton14.setBorderPainted(false);
         jButton14.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton14.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton14.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -239,6 +264,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton15.setForeground(new java.awt.Color(255, 255, 255));
         jButton15.setText("-");
         jButton15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton15.setBorderPainted(false);
         jButton15.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton15.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton15.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -252,6 +278,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton16.setForeground(new java.awt.Color(255, 255, 255));
         jButton16.setText("+");
         jButton16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton16.setBorderPainted(false);
         jButton16.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton16.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton16.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -265,6 +292,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton17.setForeground(new java.awt.Color(255, 255, 255));
         jButton17.setText("=");
         jButton17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton17.setBorderPainted(false);
         jButton17.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton17.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton17.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -278,6 +306,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton18.setForeground(new java.awt.Color(255, 255, 255));
         jButton18.setText("1/x");
         jButton18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton18.setBorderPainted(false);
         jButton18.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton18.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton18.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -291,6 +320,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton19.setForeground(new java.awt.Color(255, 255, 255));
         jButton19.setText("CE");
         jButton19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton19.setBorderPainted(false);
         jButton19.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton19.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton19.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -304,6 +334,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         jButton20.setForeground(new java.awt.Color(255, 255, 255));
         jButton20.setText("C");
         jButton20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton20.setBorderPainted(false);
         jButton20.setMaximumSize(new java.awt.Dimension(42, 45));
         jButton20.setMinimumSize(new java.awt.Dimension(42, 45));
         jButton20.setPreferredSize(new java.awt.Dimension(45, 45));
@@ -408,7 +439,7 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     public void eliminaMensajeBienvenida(){
-        if("Calculadora de Teo, aquí sus cuentas.".equals(txtPanel.getText()))
+        if("Teo's calc".equals(txtPanel.getText()))
             txtPanel.setText("");
     }
     
@@ -555,6 +586,10 @@ public class CalculadoraConCalculos extends javax.swing.JFrame {
             txtPanel.setText(num.toString());
         }
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void txtPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPanelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtPanelActionPerformed
 
     public static String calculadora(String variable1, String variable2, String signo){
         Double resultado = 0.0;
