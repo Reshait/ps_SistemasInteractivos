@@ -1,6 +1,3 @@
-
-[Visita mi Blog](http://www.re-design.es)
-
 #MEMORIA FINAL DEL TRABAJO FINAL DE SISTEMAS INTERACTIVOS.
 Asignatura SI de 3º GII.
 
