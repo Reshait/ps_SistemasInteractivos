@@ -11,10 +11,13 @@ Para ver correctamente las animaciones realizadas se recomienda usar Google Chro
 	[http://www.re-design.es/redisenando-ubuntu-14-04-lts/](http://www.re-design.es/redisenando-ubuntu-14-04-lts/)
 
 - Rediseño de Ubuntu - animaciones de ventana -
+	
 	[http://www.re-design.es/redisenando-ubuntu-motion-graphics/](http://www.re-design.es/redisenando-ubuntu-motion-graphics/)
 
 - Rediseño del Centro de Software de Ubuntu - con animaciones de ventana -
+	
 	[http://www.re-design.es/redisenando-ubuntu-centro-de-software-ubuntu/](http://www.re-design.es/redisenando-ubuntu-centro-de-software-ubuntu/)
+	
 	[Tutorial online de cómo se han realizado las animaciones más curiosas](http://www.re-design.es/tutorial-animaciones-en-ventana/)
 
 P.D: Espero que disfruten del trabajo por lo menos en igual medida que yo lo he hecho creándolo.
